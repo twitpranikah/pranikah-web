@@ -4,5 +4,6 @@ title = 'Pranikah.org'
 theme = 'hugo-book'
 
 [params]
+BookLogo = 'LogoPranikah.png'
   BookSection = '*'
   BookSearch = true
