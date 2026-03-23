@@ -1,8 +1,11 @@
 baseURL = 'https://twitpranikah.github.io/pranikah-web/'
 languageCode = 'id-id'
 title = 'Pranikah.org'
-theme = 'hugo-book'
 
+[module]
+  [[module.imports]]
+    path = "github.com/alex-shpak/hugo-book"
+    
 # Penting agar GitHub Pages bisa baca folder dengan benar
 relativeURLs = true
 canonifyURLs = true
