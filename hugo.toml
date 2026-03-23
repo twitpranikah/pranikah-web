@@ -3,6 +3,12 @@ languageCode = 'id-id'
 title = 'Pranikah.org'
 theme = 'hugo-book'
 
+# Penting agar GitHub Pages bisa baca folder dengan benar
+relativeURLs = true
+canonifyURLs = true
+
 [params]
-  # Agar semua folder otomatis muncul di sidebar
+  # Menampilkan semua folder di sidebar
   BookSection = '*'
+  # Menambah fitur pencarian di web
+  BookSearch = true
