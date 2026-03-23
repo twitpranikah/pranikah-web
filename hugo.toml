@@ -1,0 +1,8 @@
+baseURL = 'https://twitpranikah.github.io/pranikah-web/'
+languageCode = 'id-id'
+title = 'Pranikah.org'
+theme = 'hugo-book'
+
+[params]
+  # Agar semua folder otomatis muncul di sidebar
+  BookSection = '*'
