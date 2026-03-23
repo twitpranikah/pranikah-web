@@ -26,7 +26,7 @@ jobs:
           extended: true        # Agar support fitur CSS tema modern
 
       - name: Build
-        run: hugo --minify --baseURL "https://twitpranikah.github.io/pranikah-web/"
+        run: hugo --minify --gc --baseURL "https://twitpranikah.github.io/pranikah-web/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
