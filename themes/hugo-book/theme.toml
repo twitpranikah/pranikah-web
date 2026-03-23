@@ -1,0 +1,12 @@
+name = "Hugo Book"
+license = "MIT"
+licenselink = "https://github.com/alex-shpak/hugo-book/blob/master/LICENSE"
+description = "Hugo documentation theme as simple as plain book"
+homepage = "http://example.com/"
+tags = ["book", "documentation", "education"]
+features = ["search", "multilingual"]
+author = "Alex Shpak"
+
+[author]
+  name = "Alex Shpak"
+  homepage = "https://github.com/alex-shpak"
