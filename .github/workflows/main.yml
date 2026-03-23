@@ -16,14 +16,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # Ini penting untuk panggil tema Hugo Book
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true        # Agar support fitur CSS tema modern
+          extended: true
+
+      - name: Install Theme Manually
+        run: |
+          mkdir -p themes/hugo-book
+          git clone https://github.com/alex-shpak/hugo-book themes/hugo-book
 
       - name: Build
         run: hugo --minify --gc --baseURL "https://twitpranikah.github.io/pranikah-web/"
